@@ -1,5 +1,6 @@
 MANIFEST.in
 README.md
+pyproject.toml
 setup.py
 gitignore_generator/__init__.py
 gitignore_generator/main.py

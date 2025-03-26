@@ -5,11 +5,9 @@ A simple CLI tool to generate `.gitignore` files for different programming langu
 ## Installation
 
 ```bash
-# Install from the current directory
-pip install -e .
 
-# Or install directly
-pip install .
+pip install gitignore-generator==0.1.0 
+
 ```
 
 ## Usage
