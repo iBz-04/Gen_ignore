@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: gitignore-generator
+Version: 0.1.0
+Summary: A CLI tool to generate gitignore files for different languages
+Author: Your Name
+Author-email: your.email@example.com
+Keywords: git,gitignore,cli
+Requires-Python: >=3.6
+Dynamic: author
+Dynamic: author-email
+Dynamic: keywords
+Dynamic: requires-python
+Dynamic: summary
