@@ -1,9 +1,9 @@
 Metadata-Version: 2.4
 Name: gitignore-generator
-Version: 0.1.0
+Version: 0.1.1
 Summary: A CLI tool to generate gitignore files for different languages
 Home-page: https://github.com/iBz-04/Gen_ignore
-Author: Your Name
+Author: Ibrahim Rayamah
 Author-email: issakaibrahimrayamah@gmail.com
 Keywords: git,gitignore,cli
 Classifier: Programming Language :: Python :: 3
@@ -23,16 +23,14 @@ Dynamic: summary
 
 # Gitignore Generator
 
-A simple CLI tool to generate `.gitignore` files for different programming languages.
+A simple CLI tool to generate pre-built `.gitignore` files for different programming languages.
 
 ## Installation
 
 ```bash
-# Install from the current directory
-pip install -e .
 
-# Or install directly
-pip install .
+pip install gitignore-generator==0.1.0 
+
 ```
 
 ## Usage
@@ -55,6 +53,3 @@ The tool will:
 - Standard gitignore patterns for each language
 - Safe handling of existing gitignore files (overwrite or merge)
 
-## License
-
-MIT 

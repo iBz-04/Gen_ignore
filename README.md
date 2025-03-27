@@ -1,6 +1,6 @@
 # Gitignore Generator
 
-A simple CLI tool to generate `.gitignore` files for different programming languages.
+A simple CLI tool to generate pre-built `.gitignore` files for different programming languages.
 
 ## Installation
 
@@ -30,6 +30,3 @@ The tool will:
 - Standard gitignore patterns for each language
 - Safe handling of existing gitignore files (overwrite or merge)
 
-## License
-
-MIT 

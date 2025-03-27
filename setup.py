@@ -10,7 +10,7 @@ except FileNotFoundError:
 
 setup(
     name="gitignore-generator",
-    version="0.1.0",
+    version="0.1.1",
     packages=find_packages(),
     include_package_data=True,
     data_files=[('templates', ['templates/python.txt', 'templates/javascript.txt'])],
@@ -19,7 +19,7 @@ setup(
             "gen-gitignore=gitignore_generator:main",
         ],
     },
-    author="Your Name",
+    author="Ibrahim Rayamah",
     author_email="issakaibrahimrayamah@gmail.com",
     description="A CLI tool to generate gitignore files for different languages",
     long_description=long_description,
